@@ -1,3 +1,4 @@
+<!-- First solution -->
 <div
   class="container"
   style="
@@ -9,7 +10,7 @@
     border-top: 1px solid black;
     border-right: 3px solid rgb(236, 236, 236);
     border-bottom: 1px solid rgb(236, 236, 236);
-    margin: 20px auto;
+    margin: 120px auto;
   "
 >
   <span
@@ -18,13 +19,51 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: yellow;
-      background-color: red;
       height: 80px;
       width: 80px;
-      border-radius: 100%;
-      text-decoration: underline;
+      background-color: red;
+      border-radius: 9999px;
       font-size: 14px;
+      color: yellow;
+      text-decoration: underline;
+    "
+  >
+    Box
+  </span>
+</div>
+
+<!-- Second solution -->
+<div
+  class="container"
+  style="
+    position: relative;
+    width: 610px;
+    height: 370px;
+    border-top: 1px solid black;
+    border-right: 3px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    margin: 120px auto;
+  "
+>
+  <span
+    class="box"
+    style="
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      width: 80px;
+      background-color: red;
+      border-radius: 9999px;
+      font-size: 14px;
+      color: yellow;
+      text-decoration: underline;
     "
   >
     Box
